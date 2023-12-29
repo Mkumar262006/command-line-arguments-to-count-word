@@ -7,20 +7,41 @@ Anaconda - Python 3.7
 ## ALGORITHM: 
 ### Step 1:
 
-### Step 2: 
- 
-### Step 3: 
+import sys
+### Step 2:
 
-### Step 4:  
+initially make count = 0
+### Step 3:
 
-### Step 5: 
+open the content file using command line arguments.
+### Step 4:
 
-### Step 6: 
+by using for loop name the function as "line"
+### Step 5:
+
+split the line using .split
+### Step 6:
+
+split the line using .spli
 
 ## PROGRAM:
+```
+'''
+Program for getting the word count from the contents of a file using command line arguments
+Developed by:MANOJ KUMAR S
+RegisterNumber: 212223240082
+'''
+import sys
+fp=open(sys.argv[1],'r')
+count=0
+for line in fp:
+    words=line.split()
+    count+=len(words)
+print("Number of words in a file",count)
+```
 
 ### OUTPUT:
-
+![Alt text](image.png)
 
 
 ## RESULT:
